@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      h1 {
+        color: white;
+        text-align: center;
+      }
+
+      .img-box1 {
+        /* background: green; */
+        /* position: relative; */
+        animation: gfg 5s infinite;
+      }
+
+      @keyframes gfg {
+        0% {
+          top: 0px;
+          width: 10vw;
+        }
+        25% {
+          top: 50px !important;
+          /* background: LawnGreen; */
+        }
+        50% {
+          top: 100px !important;
+          /* background: LightGreen; */
+        }
+        100% {
+          top: 200px !important;
+          /* color: white; */
+          /* background: Green; */
+          width: 90vw;
+        }
+      }
+    </style>
+
+    <div class="nav">
+      <ul>
+        <li><a href="./tas1.html">HOME</a></li>
+        <li><a href="./slide1.html">IMAGE 1</a></li>
+
+        <li><a href="./slide2.html">IMAGE 2</a></li>
+
+        <li><a href="./slide3.html">IMAGE 3</a></li>
+      </ul>
+    </div>
+    <!-- <h1 class="animate__animated animate__bounce">An animated element</h1> -->
+    <div class="img-box1">
+      <img src="./images/home.jpg" alt="" />
+    </div>
+  </body>
+</html>
